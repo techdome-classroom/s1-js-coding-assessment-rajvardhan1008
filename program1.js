@@ -1,6 +1,6 @@
 const getTotalIsles = function (grid) {
 
-    let cnt = 0;
+    let count = 0;
 
     const recursive = (row, col) => {
       grid[row][col] = 2;
